@@ -1,0 +1,22 @@
+{
+	"name": "db2",
+	"properties": {
+		"Name": "db2",
+		"EntityType": "DATABASE",
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"Properties": {
+			"IsSyMSCDMDatabase": true
+		},
+		"Source": {
+			"Provider": "ADLS",
+			"Location": "abfss://fscdx@storageaccountcdx.dfs.core.windows.net/db2",
+			"Properties": {
+				"FormatType": "csv",
+				"LinkedServiceName": "my-workspace-cdx-WorkspaceDefaultStorage"
+			}
+		}
+	},
+	"type": "DATABASE"
+}
