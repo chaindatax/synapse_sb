@@ -2,7 +2,7 @@
 	"name": "SQL script 1",
 	"properties": {
 		"content": {
-			"query": "SELECT * FROM table limit 10",
+			"query": "SELECT * FROM db2.t2",
 			"metadata": {
 				"language": "sql"
 			},
